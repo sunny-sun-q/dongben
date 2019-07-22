@@ -1,0 +1,157 @@
+.u-tree.u-tree-show-line li:not(:last-child):before{
+  border-left: none;
+}
+
+.u-tree.u-tree-show-line li span.u-tree-switcher{
+background: #f7f7f7;
+}
+
+.section-wrap-l{
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: hsla(220,4%,58%,.5);
+  }
+}
+.u-tree{
+  font-size: 14px;
+}
+.u-tree-node-content-wrapper{
+  // width: 100%;
+  .uf{
+    font-size: 14px;
+  }
+  &.u-tree-node-selected{
+    .u-tree-title{
+      .show-tree-icon,.tree-name a{
+        color: #1890FF;
+      }
+    }
+  }
+  .tree-branch{
+    display: flex;
+    width: 100%;
+    position: relative;
+    .hide-tree-icon{
+      display: none;
+    }
+    .hide-tree-icon{
+      display: none;
+    }
+    .tree-name{
+      // flex: 1;
+      max-width: 200px;
+      overflow: hidden;
+      margin-right: 120px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .icon-group{
+      padding-right: 10px;
+      position: absolute;
+      left: 110px;
+      height: 21px;
+      background: #e7f4fd;
+      a{
+        padding:0;
+      }
+      cursor: pointer;
+      .uf{
+        font-size: 14px;
+      }
+      // display: none;
+    }
+  }
+}
+.displaynone{
+  display: none;
+}
+
+.upload-button{
+  display: none;
+}
+
+.u-dropdown-menu>.u-dropdown-menu-item{
+  line-height: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+
+.tree-modal {
+  .u-modal-title{
+    text-align: left;
+  }
+  .u-modal-footer{
+    // display: flex;
+    // justify-content: center;
+    padding-right: 40px;
+    .u-button[disabled]:hover{
+      background: #eee;
+      color: #BDBDBD;
+    }
+  }
+  .modal-l{
+    text-align: right;
+    // padding-right: 20px;
+  }
+  .modal-r{
+    text-align: left;
+  }
+  .checkbox-row{
+    padding: 0 78px;
+    .u-checkbox{
+      height: 24px;
+      line-height: 24px;
+    }
+  }
+  .input-field{
+    width: 390px;
+  }
+  .padding-bottom-40{
+    padding-bottom: 40px;
+  }
+  .u-modal-body{
+    color:rgba(74,74,74,1);
+    .modal-body-content{
+      text-align: center;
+      .del-warning-icon{
+        color:rgb(255,152,0);
+        font-size: 50px;
+      }
+    }
+    .require-icon{
+      color: red;
+      padding: 5px;
+    }
+    .error {
+      font-size: 12px;
+      color: red;
+      margin-left: 10px;
+    }
+  }
+}
+.u-modal .u-modal-body {
+  // .maindata-form-row{
+    .u-form-item{
+      // max-width: 290px;
+    }
+    .grayDeep{
+      height: 30px;
+      line-height: 30px;
+    }
+  // }
+}
+
+.u-tree li a{
+  min-width: 100px;
+}

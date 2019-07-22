@@ -1,0 +1,37 @@
+.alert-wrapper {
+  position: fixed;
+  top: 52px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.create-alert {
+  padding: 16px 20px;
+  background: #FFFBE6;
+  border: 1px solid #FFE58F;
+  width: 600px;
+  margin:0 auto 30px;
+  border-radius: 4px;
+  z-index: 1;
+  .create-alert-content {
+    padding: 0 40px;
+    color: #000;
+    &>p {
+      margin: 0;
+    }
+    background-image: url("~images/ootb/tanhao.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+  }
+  .create-alert-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  .create-alert-message {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

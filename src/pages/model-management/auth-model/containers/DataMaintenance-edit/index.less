@@ -1,0 +1,508 @@
+.second-table{
+
+  &.show{
+    display: block;
+  }
+  &.hidden{
+    display: none;
+  }
+  .table-edit-btn{
+    position: relative;
+    height: 40px;
+  }
+  .sql-btn{
+    background: #fff;
+    color:#0070D2;
+    border: 1px solid #BDBDBD;
+  }
+  .save-table-btn{
+    right: 0;
+    position: absolute;
+  }
+  .u-tabs-content{
+    background: white;
+  }
+  .main-data-form-auth-model{
+    // display: flex;
+    .item-title {
+      display: inline-block;
+      width: 90px;
+      text-align: right;
+    }
+    .item-detail {
+      display: inline-block;
+      width: calc( 100% - 100px);
+      max-width: 240px;
+      vertical-align: middle;
+      .u-input-group {
+        width: 100%;
+      }
+    }
+    justify-content: space-around;
+    align-content: center;
+    background: white;
+    padding: 0 40px;
+    color: #666;
+    margin: 12px 0;
+    .checkbox-item{
+      display: flex;
+      .u-checkbox:first-child{
+        margin-right: 20px;
+      }
+      .form-data-checkbox{
+        height: 32px;
+        line-height: 32px;
+        margin-left: 80px;
+        .u-checkbox{
+          height: 26px;
+          line-height: 26px;
+        }
+      }
+    }
+    .form-data-node{
+      flex:1;
+      line-height: 64px;
+    }
+    .form-item-input{
+      // display: flex;
+      flex:1;
+      position: relative;
+      align-items: center;
+      .require-icon{
+        color: red;
+        padding:5px;
+      }
+      // .u-label {
+      //   min-width: 70px;
+      //   display: inline;
+      // }
+      .u-form-control,.u-select{
+        // min-width: 236px; //
+        height:32px;
+        line-height: 32px;
+        width: 100%;
+      }
+      .error{
+        color: red;
+        margin-left: 10px;
+        position: absolute;
+        top:30px;
+        left: 75px;
+      }
+      .u-button{
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .editable-cell{
+    input{
+      width: 80px;
+    }
+  }
+
+  .u-tabs-primary {
+    background: #f5f5f5;
+    border: 16px solid #f5f5f5;
+    border-bottom: none;
+    padding-bottom: 16px;
+    // padding: 24px 20px 20px;
+  }
+  .u-tabs-primary .u-tabs-nav{
+    margin-left: 0;
+    .u-tabs-tab{
+      margin: 0;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      background: #f5f5f5;
+      height: 40px;
+      line-height: 40px;
+      padding: 0 20px;
+      .uf{
+        font-size: 14px;
+        cursor: pointer;
+        &:hover{
+          color: #1e88e5;
+        }
+      }
+    }
+    .u-tabs-tab-active{
+      color: #1e88e5;
+      background: #fff;
+      font-weight: 400;
+    }
+    .u-tabs-tab-disabled{
+      background-color: rgb(30,136,229) !important;
+      &:hover{
+        background-color: rgb(66,165,245) !important;
+        border-color: rgb(66,165,245);
+      }
+      &:active{
+        background-color: rgb(21,101,192) !important;
+        border-color: rgb(21,101,192);
+      }
+    }
+  }
+
+}
+
+ul.display-flex{
+  display: flex;
+  li{
+    padding-right: 10px;
+    cursor: pointer;
+  }
+}
+ul.handle-btn-group{
+  color: #1E7BE2;
+}
+
+.margin-bottom-10{
+  margin-bottom: 10px;
+}
+
+.margin-right-10{
+  margin-right: 10px;
+}
+
+.mdm-table{
+  input {
+    width: 80px;
+  }
+}
+// .mdm-table {
+//   color: #666 !important;
+// }
+// .mdm-table .u-table-thead th {
+//   background: #f7f7f7 !important;
+// }
+
+.close-icon{
+  position: relative;
+  right: -15px;
+  top: 1px;
+  color: #adaaaa;
+}
+
+.clear-icon{
+  display: inline-block;
+  margin-top: 11px;
+  margin-right: 10px;
+}
+///////////////////////////
+.data-maintenance-detail{
+  .section-wrap-r-header{
+      display: flex;
+      flex-direction: row;
+      width: calc(100% -20px);
+      margin-right: 20px;
+      height: 44px;
+
+      box-shadow:0px 3px 4px 0px rgba(0,0,0,0.2);
+      align-items: center;
+      .section-wrap-r-title{
+        padding-left: 20px;
+        font-weight: 500;
+        color: #424242;
+        font-size:14px;
+        flex:1;
+      }
+      .main-data-btn {
+        display: flex;
+        .u-button{
+          margin-right: 10px;
+        }
+      }
+
+  }
+  .u-label{
+      display: inline-block;
+      // min-width: 110px;
+      text-align: left;
+      vertical-align: top;
+  }
+
+  .detail-body{
+      color: #4A4A4A;
+      background: #fff;
+      padding: 20px 15px;
+      padding-bottom: 20px;
+      >div{
+          height: 60px;
+          line-height: 30px;
+          padding-bottom: 45px;
+      }
+      .u-form-control{
+          width: auto;
+          min-width: 240px;
+      }
+      .form-item{
+          display: inline-block;
+      }
+      .datepicker{
+          vertical-align: top;
+      }
+      .u-select {
+          width: auto;
+          min-width: 240px;
+          display: inline-block;
+      }
+
+      .error {
+          color: red;
+          display: inline-block;
+      }
+      .yyuapRef .error {
+          margin-left:-92px;
+          display:none;
+      }
+
+
+      .refInputWrap {
+          width: 240px;
+          display: inline-block;
+          input {
+              width: auto;
+              min-width: 240px;
+              position: relative;
+              display: inline-block;
+              padding: 0 12px;
+              height: 30px;
+              cursor: text;
+              font-size: 14px;
+              line-height: 1.5;
+              color: #424242;
+              background-color: #fff;
+              background-image: none;
+              border: 1px solid #bdbdbd;
+              border-radius: 3px;
+              transition: all .3s;
+          }
+          input.formDisable {
+               background: #eee;
+               border-color: #e0e0e0;
+               color: #bdbdbd;
+               cursor: not-allowed;
+           }
+          i {
+              right:2%;
+              top:0;
+          }
+      }
+      .u-col-md-4.u-col-xs-6>div{
+          display:inline-block;
+          vertical-align: middle;
+      }
+      .u-col-md-4.u-col-xs-6>div .input-number input{
+          min-width:198px;
+      }
+
+      .input-number-int {
+         .u-input-group-btn {
+             display: inline-block;
+             vertical-align: top;
+         }
+
+      }
+      .u-input-number.u-input-group.simple .u-input-group-btn{
+          position:absolute;
+      }
+      .datepicker-input-group.u-input-group .u-input-group-btn {
+          line-height: 28px;
+      }
+  }
+  .head-btn{
+      display: inline-block;
+      float: right;
+      .head-save{
+          background: #1E7BE2;
+          color:#fff;
+          margin-left: 15px;
+      }
+  }
+
+  .master-tag {
+     padding: 10px 0;
+     background: #fff;
+     width: auto;
+     box-sizing: border-box;
+     position: relative;
+     .childhead {
+         -webkit-justify-content: center;
+         width: 100%;
+         height: 40px;
+         background-color:#fff;
+         border-bottom: 1px solid #ddd;
+         display: flex;
+         flex-direction: row;
+         align-content: space-between;
+         align-items: flex-start;
+         margin:0;
+         padding: 0;
+         box-sizing: border-box;
+         .workbreakdown {
+             display: block;
+             height: 40px;
+             line-height: 40px;
+             color: #039BE5;
+             border-bottom: 3px solid #039BE5;
+             font-size: 14px;
+             padding: 0 24px 0 24px;
+         }
+         .annexinfo {
+             display: block;
+             height: 40px;
+             line-height: 40px;
+             padding: 0 24px 0 24px;
+             overflow: hidden;
+         }
+     }
+  }
+
+}
+
+.form-data-node {
+  position: relative;
+}
+.icon-btn {
+  position: absolute;
+  left: 281px;
+  cursor: pointer;
+}
+
+.data-maintenance-detail {
+  position: relative;
+}
+
+.main-table-wrap{
+  position: relative;
+  background: white;
+  // min-height: 500px;
+}
+.u-tabs-tabpane{
+  background: white;
+}
+.read-limit{
+  position: absolute;
+  left: 50%;
+  top: 11px;
+  z-index: 100;
+}
+
+.write-limit{
+  position: absolute;
+  left: 75%;
+  top: 8px;
+  z-index: 100;
+}
+.tabs-wrap{
+  background: #f5f5f5;
+}
+
+.u-checkbox .u-checkbox-label:after, .u-checkbox .u-checkbox-label:before{
+  top: 0;
+}
+.main-data-name {
+  margin: 24px 0 16px 0;
+  color: #212121;
+}
+.main-data-name .main-data-name-info {
+  margin-left: 16px;
+}
+
+.main-data-form {
+  font-size: 14px;
+  // .u-form-item {
+  //   min-height: auto!important;
+  // }
+  // .u-form-item, .authsube{
+  //   margin-top: 20px;
+  //   margin-left: 20px;
+  // }
+  // .u-form-item .u-select {
+  //   min-width: 100px;
+  //   max-width: 183px;
+  // }
+  // .u-label {
+  //   display: inline;
+  //   padding-right: 12px;
+  //   min-width: 82px;
+  // }
+  .u-form-control {
+    // width: auto;
+  }
+  .error {
+    font-size: 12px;
+    color: red;
+    margin-left: 10px;
+  }
+
+  .form-item-input {
+    .icon-btn {
+      display: inline-block;
+      position: relative;
+      right: 30px;
+    }
+  }
+}
+.auth-sube-Checkbox {
+  line-height: 40px;
+  height: 40px;
+}
+.auth-sube-Checkbox .u-checkbox-label:after, .auth-sube-Checkbox .u-checkbox-label:before {
+  top:10px;
+}
+.form-input-wrap {
+  position: relative;
+}
+.error-tip {
+  position: absolute;
+  top: 27px;
+  left: 0px;
+  color:red;
+}
+.senior-search-panel {
+  position: absolute;
+  right: 8px;
+}
+.auth-sube-tabs {
+  border: 16px solid #f5f5f5;
+  border-bottom: none;
+}
+.auth-sube-tabs .table-list {
+  padding: 0;
+}
+.auth-sube-tabs .auth-sube-table-name {
+  margin: 24px 0 16px 0;
+}
+.data-rules {
+  color: red;
+}
+.auth-sube-Checkbox-name {
+  margin-right:8px;
+}
+.data-maintenance-detail {
+  padding: 0 16px;
+}
+.auth-model-wraps .u-tabs-content  .u-tabs-tabpane{
+  padding-top: 20px;
+}
+.auth-model-wraps .u-table .u-checkbox {
+  display: inline-block;
+  margin-right: 8px;
+}
+#data-maintenance-detail .item-detail{
+  position: relative;
+}
+#data-maintenance-detail .item-detail .icon-btn {
+  position: absolute;
+  right: 0;
+  top:0;
+  left: inherit;
+}
+#data-maintenance-detail .item-detail .icon-btn .senior-search-panel {
+  right: 4px;
+}
+#data-maintenance-detail .item-detail .auth-modal-data-range {
+  padding-right: 24px;
+}

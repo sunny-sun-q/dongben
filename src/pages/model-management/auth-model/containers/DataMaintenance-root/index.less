@@ -1,0 +1,78 @@
+.DemoOrder-root{
+    >.table-header{
+        padding-top: 10px;
+        padding-left: 15px;
+        background: #fff;
+        margin-bottom: 10px;
+        .uf{
+            font-size: 12px;
+        }
+        .u-button {
+            // min-width: 65px;
+            margin-right: 20px;
+        }
+    }
+    .table-list{
+        .u-table{
+            .u-table-tbody{
+                .td-detail{
+                    color: #1E7BE2;
+                    cursor: pointer;
+                }
+                .operation-btn{
+                    .u-button{
+                        background:none;
+                        color: #1E7BE2;
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    /* 隐藏列表下拉框样式 */
+    .hideselect.u-select  {
+
+        .u-select-selection {
+            border: none;
+            background: none;
+            color: #666;
+            content : none;
+            cursor: default;
+            &:hover {
+                cursor: default;
+            }
+        }
+
+        .u-select-arrow:before {
+            content : none;
+        }
+
+    }
+    ul.display-flex{
+        display: flex;
+        li{
+          padding-right: 10px;
+          cursor: pointer;
+        }
+    }
+    ul.handle-btn-group{
+        color: #1E7BE2;
+    }
+}
+
+.mt25 {
+    margin-top:14px;
+}
+
+.ml5 {
+    margin-left: 5px
+}
+
+.main .section-wrap-r button:disabled {
+  // background-color: #eee;
+  // border-color: #e0e0e0;
+  // color: #c0c0c0;
+  // cursor: not-allowed;
+}

@@ -1,0 +1,160 @@
+.create-modal {
+  .create-modal-header {
+    overflow: hidden;
+  }
+  .create-modal-title{
+    float: left;
+  }
+  .create-modal-search {
+    float: right;
+    width: 220px;
+  }
+  .create-modal-body {
+    padding-top: 0;
+    padding-bottom: 0;
+    .u-tree {
+      height: auto;
+    }
+  }
+  .create-modal-creating {
+    padding-top: 30px;
+    text-align: center;
+    img {
+      animation: rotate 1s 0s linear infinite;
+    }
+    span {
+      font-size: 16px;
+      color: #172B4D;
+      margin-left: 24px;
+    }
+  }
+
+  .create-modal-create-info {
+    padding: 10px;
+    position: relative;
+    .info-icon {
+      position: absolute;
+      width: 44px;
+      height: 44px;
+      border: 2px solid;
+      top: 0;
+      left: 20px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      font-size: 25px;
+      &.success {
+        border-color: #5AB55D;
+        color: #5AB55D;
+      }
+      &.fail {
+         border-color: #F5222D;
+        color: #F5222D;
+      }
+    }
+    p {
+      margin: 0;
+      padding-left: 80px;
+    }
+    .info-status {
+      font-size: 16px;
+      color: #172B4D;
+      line-height: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .info-msg {
+      font-size: 14px;
+      color: #1B2F50;
+      line-height: 20px;
+    }
+  }
+}
+
+.create-modal-tree {
+  padding-right: 20px !important;
+  .u-tree-node-content-wrapper {
+    width: 100%;
+  }
+  .tree-title {
+    font-size: 13px;
+    &>i {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      padding: 0;
+      margin: 0 5px;
+      line-height: 14px;
+    }
+  }
+  .status-ser-wait {
+    .status-text, &>i {
+      color: #999999;
+    }
+    &>i {
+      font-size: 16px;
+    }
+  }
+  .status-ser-doing {
+    &>img {
+      width: 14px;
+      height: 14px;
+      padding: 0;
+      margin: 0 5px;
+    }
+    .status-text {
+      color: #2196F3;
+    }
+  }
+  .status-ser-success {
+    &>i {
+      font-size: 12px;
+      border: 1px solid  #1F8B30;
+      border-radius: 50%;
+    }
+    .status-text, &>i {
+      color: #1F8B30;
+    }
+  }
+  .status-ser-fail {
+    .status-text, &>i {
+
+      color: #E53935;
+    }
+    &>i {
+      font-size: 16px;
+    }
+  }
+  .status-text {
+    float: right;
+  }
+}
+.create-modal-tree-w {
+  height: 376px;
+  overflow: hidden auto;
+  background: #F5F5F5;
+}
+
+.create-modal-progress {
+  font-size: 12px;
+  p {
+    margin: 0;
+  }
+  .u-progress {
+    margin-bottom: 5px;
+  }
+  .progress-num {
+    margin-top: 5px;
+    color: #424242;
+    line-height: 18px;
+    text-align: right;
+  }
+  .progress-text {
+    color: #172B4D;
+    line-height: 24px;
+  }
+}
+
+.u-tooltip {
+  z-index: 1800;
+}

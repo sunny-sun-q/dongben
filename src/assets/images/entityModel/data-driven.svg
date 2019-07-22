@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="81px" viewBox="0 0 81 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>数据驱动</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="数据模型--01-copy-5" transform="translate(-1236.000000, -338.000000)">
+            <g id="user-2-copy" transform="translate(1211.000000, 313.000000)">
+                <g id="personal-info" transform="translate(25.594864, 25.413007)">
+                    <g id="数据驱动">
+                        <circle id="avatar" fill="#56A2FD" opacity="0.06" cx="40" cy="40" r="40"></circle>
+                        <circle id="avatar" fill="#56A2FD" opacity="0.15" cx="40" cy="40" r="32"></circle>
+                        <g id="arrows-48px-outline-2_curve-directions" transform="translate(24.000000, 23.000000)" stroke="#1E7BE2" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                            <g id="Group" transform="translate(0.395349, 0.395349)">
+                                <path d="M0,18.9767442 L7.90697674,18.9767442 C12.255814,18.9767442 15.8139535,22.5348837 15.8139535,26.8837209 L15.8139535,33.2093023" id="Shape"></path>
+                                <path d="M31.627907,18.9767442 L23.7209302,18.9767442 C19.372093,18.9767442 15.8139535,22.5348837 15.8139535,26.8837209 L15.8139535,33.2093023" id="Shape"></path>
+                                <path d="M15.8139535,28.4651163 L15.8139535,0" id="Shape"></path>
+                                <polyline id="Shape" points="4.74418605 23.7209302 0 18.9767442 4.74418605 14.2325581"></polyline>
+                                <polyline id="Shape" points="26.8837209 23.7209302 31.627907 18.9767442 26.8837209 14.2325581"></polyline>
+                                <polyline id="Shape" points="9.48837209 6.3255814 15.8139535 0 22.1395349 6.3255814"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

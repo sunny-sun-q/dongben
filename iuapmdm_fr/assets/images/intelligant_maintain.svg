@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="32px" viewBox="0 0 112 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="112" height="32"></rect>
+        <filter x="-13.8%" y="-48.4%" width="127.7%" height="196.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="15" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.266666667   0 0 0 0 0.82745098   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="智能维护" transform="translate(-1778.000000, -243.000000)">
+            <g id="Group-4" transform="translate(1778.000000, 243.000000)">
+                <g id="Rectangle-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <rect stroke="#44D3FF" stroke-width="2" stroke-linejoin="square" x="1" y="1" width="110" height="30"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

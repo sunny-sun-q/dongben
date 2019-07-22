@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="google" content="notranslate" />
+  <title>数据分发</title>
+  <link href="/iuapmdm_fr/assets/libs/tinper-bee/1.5.7/assets/tinper-bee.css" rel="stylesheet" media="screen">
+
+</head>
+<body>
+  <div id="app"></div>
+  <% for (var js in htmlWebpackPlugin.options.scripts) { %>
+    <script type="text/javascript" src="<%=htmlWebpackPlugin.options.scripts[js] %>"></script>
+  <% } %>
+</body>
+</html>

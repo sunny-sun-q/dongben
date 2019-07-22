@@ -1,0 +1,137 @@
+.ootb-config-card-list {
+  padding: 20px 0 20px 20px;
+}
+.ootb-config-card-item {
+  .card-item-content {
+    cursor: pointer;
+    margin:0 20px 20px 0;
+    height: 280px;
+    background: #ffffff;
+    box-shadow:0 1px 4px 0 rgba(0,0,0,0.2);
+  }
+  .card-item-add {
+    padding: 100px 0 0;
+    text-align: center;
+    color: #90919A;
+    .add-icon {
+      width: 40px;
+      height: 40px;
+      margin: 0 auto 20px;
+      border: 2px dashed #90919A;
+      border-radius: 3px;
+      &>i {
+        font-size: 20px;
+        line-height: 1.8;
+      }
+    }
+    &>p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  .card-item-data {
+    position: relative;
+
+    .item-data-abs-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: #ffffff;
+      .abs-btn {
+        cursor: pointer;
+      }
+    }
+
+
+    .item-data-header {
+      height: 100px;
+      padding: 15px;
+      box-sizing: border-box;
+      background: rgba(0, 0, 0, .3);
+      overflow: hidden;
+      background-size: cover;
+    }
+    .item-data-header-logo {
+      float: left;
+      width: 70px;
+      height: 70px;
+      background: rgba(255, 255, 255, .3);
+      border-radius: 50%;
+      margin-right: 22px;
+    }
+    .item-data-header-info {
+      overflow: hidden;
+      padding-top: 10px;
+      color: #ffffff;
+      .name {
+        margin: 0 100px 12px 0;
+        font-size: 18px;
+        line-height: 20px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      .from {
+        font-size: 12px;
+      }
+    }
+
+
+    .item-data-url {
+      padding: 10px 20px;
+      border-bottom: 1px solid #E6E6E6;
+    }
+    .item-data-info {
+      padding: 20px 25px 5px 20px;
+      border-bottom: 1px solid #E6E6E6;
+      .data-info-item {
+        margin-bottom: 20px;
+      }
+    }
+
+    .item-data-footer {
+      padding: 10px 50px;
+      overflow: hidden;
+      .data-footer-button {
+        color: #1E7BE2;
+        &:last-child {
+          float: right;
+        }
+        &:first-child {
+          float: left;
+          border: none;
+          &:hover {
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}
+
+.card-info-view {
+  height: 14px;
+  border-left: 4px solid #1E7BE2;
+  font-size: 12px;
+  line-height: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  &.hideBorder {
+    border-left-color: transparent;
+  }
+  &>span {
+    &.info-name {
+      display: inline-block;
+    }
+    vertical-align: middle;
+  }
+  .info-name {
+    width: 60px;
+    padding: 0 10px;
+    color: #9B9B9B;
+  }
+  .info-value {
+    color: #000000;
+  }
+}

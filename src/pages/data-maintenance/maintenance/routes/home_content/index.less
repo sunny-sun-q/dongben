@@ -1,0 +1,268 @@
+.data-maintenance-root{
+    .u-form-item {
+        min-height: 40px;
+        margin-bottom: 0;
+    }
+    >.table-header{
+        padding-top: 10px;
+        padding-left: 15px;
+        background: #fff;
+        position: relative;
+        .uf{
+            font-size: 12px;
+        }
+        .header-btn-group {
+            margin-left: 15px;
+            .u-button {
+              min-width: 86px;
+            }
+            .header-btn {
+                margin:1px;
+            }
+
+            .btn-download {
+                border-color : #BDBDBD;
+            }
+
+            .senior-search-panel {
+                .extra-btn {
+                    height: 32px;
+                    color: #000000;
+                    margin-right: 0;
+                    background: white;
+                    border:1px solid #BDBDBD;
+                }
+                .extra-btn:hover {
+                    background: rgba(238, 238, 238, 1);
+                }
+            }
+        }
+    }
+    .table-list{
+        margin-top: 0;
+        .table-title {
+            display: inline-block;
+            width: 100px;
+        }
+        .u-table{
+            .u-table-tbody{
+                .td-detail{
+                    color: #1E7BE2;
+                    cursor: pointer;
+                }
+                .operation-btn{
+                    .u-button{
+                        background:none;
+                        color: #1E7BE2;
+                    }
+
+                }
+                .table-detail-block {
+                    display: inline-block;
+                    width: 150px;
+                }
+                .table-tooltip {
+
+                    display: inline-block;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    vertical-align: middle;
+                    height: 16px;
+                }
+                .table-tooltip-picture {
+                    cursor: pointer;
+                    color: #1E7BE2;
+                }
+                .table-tooltip-file {
+                    cursor: pointer;
+                    color: #1E7BE2;
+                }
+            }
+            .u-row-hover {
+              background: rgb(227,242,253) !important;
+                // background: transparent;
+                right: 0;
+                .op-btn {
+                    cursor: pointer;
+                }
+                .op-btn-history {
+                    width: 60px;
+                }
+                .op-btn-process {
+                    width: 60px;
+                }
+                .handle-btn-group {
+                    height: 36px;
+                    background: rgba(227,242,253);
+                    margin-top: 2px;
+                }
+            }
+
+        }
+    }
+
+    /* 隐藏列表下拉框样式 */
+    .hideselect.u-select  {
+
+        .u-select-selection {
+            border: none;
+            background: none;
+            color: #666;
+            content : none;
+            cursor: default;
+            &:hover {
+                cursor: default;
+            }
+        }
+
+        .u-select-arrow:before {
+            content : none;
+        }
+
+    }
+    ul.display-flex{
+        display: flex;
+        li{
+          padding-right: 10px;
+          cursor: pointer;
+        }
+    }
+
+    ul.status{
+        color: #1E7BE2;
+        li{
+            width: 40px;
+        }
+        .li-history {
+            margin: 0 25px 0 10px;
+        }
+        .wid60 {
+            width: 70px;
+        }
+        .li-disable {
+            cursor: auto;
+        }
+        .li-status {
+            .checking {
+                background: rgba(0,139,250,1);
+            }
+            .rejected {
+                background:rgba(229,1,19,1);
+            }
+            .commited {
+                background:rgba(190,190,190,1);
+            }
+            .uncommited {
+                background:rgba(235,132,22,1);
+            }
+            .passed {
+                background:rgba(34,174,106,1);
+            }
+            .seal{
+                background:rgba(34,174,106,0.5);
+            }
+            .unseal{
+                background:rgba(34,174,106,1);
+            }
+
+            width: 60px;
+        }
+        .status-circle{
+            display: inline-block ;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 3px;
+        }
+    }
+    .handle-btn-group {
+        color: #1E7BE2;
+        padding: 0 24px;
+    }
+    .import-btn-group {
+      position: absolute;
+      right: 16px;
+      top: 20px;
+    }
+}
+
+.mt25 {
+    margin-top:25px;
+}
+.mt4 {
+    margin-top:4px;
+}
+.ml5 {
+    margin-left: 5px
+}
+.u-popover {
+    width: 100px;
+    .u-popover-content {
+        padding: 0;
+        .u-popover-ul {
+            .u-popover-li {
+                font-size: 12px;
+                padding: 5px 0 5px 20px;
+                margin: 2px 0;
+                cursor: pointer;
+                color: #1E7BE2;
+            }
+
+            .u-popover-li:hover {
+                background: #e3f2fd;
+            }
+        }
+    }
+}
+
+.img-show {
+
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.show-data-import-modal .u-modal-content{
+  height: 400px;
+}
+.show-data-import-modal .u-modal-content .u-modal-body {
+  height: 300px;
+  overflow-y:scroll;
+}
+.show-data-import-modal .u-modal-footer {
+  padding-top: 0;
+}
+.show-data-import-modal .u-modal-content .u-timeline-item-head.u-timeline-item-head-primary {
+  border: 2px solid rgb(30,136,229);
+}
+#importBody {
+  transition: scrollTop 0.4s;
+}
+.show-data-import-modal .u-modal-content .u-progress {
+  margin-bottom: 0;
+}
+.import-title {
+   margin-top: 4px;
+   font-size: 14px;
+   color:#212121;
+}
+.img-download-tips {
+    display: block;
+    margin: 15px auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+.header-btn-group .senior-search-panel .u-button{
+  color: rgb(0,0,0);
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+}
+.header-btn-group .senior-search-panel .u-button:hover {
+  color: rgb(0,0,0);
+  background: rgb(238,238,238);
+  border-color: rgb(165, 173, 186);
+}
+.header-btn-group.u-button-group .u-button+.u-button {
+  margin-left: 2px;
+}

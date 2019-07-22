@@ -1,0 +1,76 @@
+{
+    "category": [
+        {
+            "code": "rest",
+            "name": "主数据接口_rest",
+            "data": [
+                {
+                    "code": "queryListMd",
+                    "name": "查询接口(按编码)",
+                    "type":"query",
+                    "superiorCoding":"rest"
+                },
+                {
+                    "code": "queryListMdByIds",
+                    "name": "查询接口(按id)",
+                    "type":"query",
+                    "superiorCoding":"rest"
+                },
+                {
+                    "code": "queryListMdByConditions",
+                    "name": "查询接口(按条件)",
+                    "type":"query",
+                    "superiorCoding":"rest"
+                },
+                {
+                    "code": "insertMd",
+                    "name": "插入接口(新增，更新，删除)",
+                    "type":"insert",
+                    "superiorCoding":"rest"
+                },
+                {
+                    "code": "distribute",
+                    "name": "数据分发(提供数据格式)",
+                    "type":"subscribe",
+                    "superiorCoding":"rest"
+                }  
+            ]
+        },
+        {
+            "code": "webservice",
+            "name": "主数据接口_webservice",
+            "data": [
+                {
+                    "code": "webserviceQueryListMd",
+                    "name": "查询接口(按编码)",
+                    "type":"query",
+                    "superiorCoding":"webservice"
+                },
+                {
+                    "code": "webserviceQueryListMdByIds",
+                    "name": "查询接口(按id)",
+                    "type":"query",
+                    "superiorCoding":"webservice"
+                },
+                {
+                    "code": "webserviceQueryListMdByConditions",
+                    "name": "查询接口(按条件)",
+                    "type":"query",
+                    "superiorCoding":"webservice"
+                },
+                {
+                    "code": "webserviceInsertMd",
+                    "name": "插入接口(新增，更新，删除)",
+                    "type":"insert",
+                    "superiorCoding":"webservice"
+                },
+                {
+                    "code": "webserviceDistribute",
+                    "name": "数据分发",
+                    "type":"subscribe",
+                    "superiorCoding":"webservice"
+                }  
+            ]
+        }
+    ]
+}

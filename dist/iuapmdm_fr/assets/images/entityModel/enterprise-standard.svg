@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="81px" viewBox="0 0 81 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>企业标准</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="数据模型--01-copy-5" transform="translate(-1539.000000, -338.000000)">
+            <g id="user-2" transform="translate(1514.000000, 313.000000)">
+                <g id="personal-info" transform="translate(25.594864, 25.413007)">
+                    <g id="企业标准">
+                        <circle id="avatar" fill="#56A2FD" opacity="0.06" cx="40" cy="40" r="40"></circle>
+                        <circle id="avatar" fill="#56A2FD" opacity="0.15" cx="40" cy="40" r="32"></circle>
+                        <g id="files-48px-outline_single-paragraph" transform="translate(24.000000, 22.000000)">
+                            <g id="Group" transform="translate(0.733968, 0.733968)">
+                                <rect id="Rectangle-path" fill="#1E7BE2" opacity="0.19624256" x="5" y="3" width="26.4228571" height="32.2946032" rx="2"></rect>
+                                <rect id="Rectangle-path" stroke="#1E7BE2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="26.4228571" height="32.2946032"></rect>
+                                <path d="M17.6152381,7.33968254 L20.5511111,7.33968254" id="Shape" stroke="#1E7BE2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M17.6152381,13.2114286 L20.5511111,13.2114286" id="Shape" stroke="#1E7BE2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M5.87174603,19.0831746 L20.5511111,19.0831746" id="Shape" stroke="#1E7BE2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M5.87174603,24.9549206 L20.5511111,24.9549206" id="Shape" stroke="#1E7BE2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <rect id="Rectangle-path" stroke="#1E7BE2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="5.87174603" y="7.33968254" width="5.87174603" height="5.87174603"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

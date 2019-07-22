@@ -1,0 +1,7 @@
+.main-wrap-flex{
+  display: flex;
+}
+
+.main-wrap-col-right{
+  flex: 1;
+}

@@ -1,0 +1,37 @@
+
+
+.ootb-connect-toast {
+  width:501px;
+  height:40px;
+  padding: 9px 12px;
+  border-radius:4px;
+  font-size: 14px;
+  position: absolute;
+  top: 8px;
+  left: 120px;
+  &>i {
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    color: #ffffff;
+    line-height: 14px;
+    font-size: 12px;
+    margin-right: 8px;
+  }
+  &.success, &.testing {
+    background: #F6FFED;
+    border:1px solid #B7EB8F;
+    &>i {
+      background: #52C41A;
+    }
+  }
+  &.fail {
+    background: #FF9C95;
+    border: 1px solid #FF5A58;
+    &>i {
+      background: #FF0000;
+    }
+  }
+}
+

@@ -1,0 +1,142 @@
+.u-modal {
+  overflow: auto !important;
+}
+
+.pop_dialog.u-modal {
+  .u-modal-dialog  {
+    width: 678px;
+  }
+  .pop_body, .pop_footer {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .pop_footer {
+    text-align: right;
+
+    button {
+      margin-left: 15px;
+    }
+
+  }
+
+  .u-modal-header {
+    h4 {
+      font-size: 16px;
+      color: rgba(23, 43, 77, 1);
+    }
+  }
+
+  .btn {
+    margin-left: 10px;
+  }
+
+  .u-modal-dialog {
+    .u-modal-content {
+      .u-modal-footer {
+        text-align: right;
+      }
+    }
+  }
+}
+
+.u-select-dropdown {
+  z-index: 2000;
+}
+
+.ootb-connect-toast {
+  width:501px;
+  height:40px;
+  padding: 9px 12px;
+  border-radius:4px;
+  font-size: 14px;
+  position: absolute;
+  top: 8px;
+  left: 120px;
+  &>i {
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  &.success, &.testing {
+    background: #F6FFED;
+    border:1px solid #B7EB8F;
+    &>i {
+      background: #52C41A;
+    }
+  }
+  &.fail {
+    background: #FF9C95;
+    border: 1px solid #FF5A58;
+    &>i {
+      background: #FF0000;
+    }
+  }
+}
+
+.u-form-item.ootb-form-item {
+  min-height: 58px;
+  padding: 0;
+  .u-label {
+    float: left;
+    width: 90px;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 13px;
+    color: #4A4A4A;
+    line-height: 28px;
+    position: relative;
+    &.required {
+      &:after {
+        content: '*';
+        color: #E60012;
+        position: absolute;
+        left: 100%;
+      }
+    }
+  }
+  .item-content>p {
+    font-size: 13px;
+    color: #4A4A4A;
+    line-height: 30px;
+    margin: 0;
+  }
+  .u-select, .item-content {
+    width: auto;
+    overflow: hidden;
+    display: block;
+  }
+  .u-switch.u-switch-lg {
+    width: 52px;
+    height: 26px;
+    line-height: 10px;
+    .u-switch-inner {
+      font-size: 14px;
+    }
+    &:after {
+      width: 22px;
+      height: 22px;
+    }
+    &.is-checked:after {
+      left: 28px;
+    }
+
+  }
+  .form-err {
+    margin: 0 10px 0 100px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FF0000;
+    vertical-align: middle;
+    &>i {
+      padding-left: 0;
+    }
+    &>span, &>i {
+      vertical-align: middle;
+    }
+  }
+}

@@ -1,0 +1,101 @@
+.main-table{
+    &.show{
+      display: block;
+    }
+    &.hidden{
+      display: none;
+    }
+    .table-edit-btn{
+      position: relative;
+      height: 40px;
+    }
+    // .sql-btn{
+    //   background: #fff;
+    //   color:#0070D2;
+    //   border: 1px solid #BDBDBD;
+    //   .uf{
+    //     font-size: 12px;
+    //   }
+    // }
+    .save-table-btn{
+      right: 0;
+      position: absolute;
+    }
+    .main-data-form{
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+      background: #F7F9FB;
+      padding: 0 40px;
+      color: #666;
+      margin-bottom: 12px;
+      .form-data-node{
+        flex:1;
+        line-height: 64px;
+      }
+      .form-item-input{
+        flex:1;
+        position: relative;
+        .require-icon{
+          color: red;
+          padding:5px;
+        }
+        .u-label {
+          display: inline;
+        }
+        .u-form-control{
+          min-width: 236px;
+          height:32px;
+          line-height: 32px;
+          width: auto;
+        }
+        .error{
+          color: red;
+          margin-left: 10px;
+          position: absolute;
+          top: 40px;
+          left: 50px;
+        }
+      }
+    }
+  
+    .editable-cell{
+      input{
+        width: 80px;
+      }
+    }
+    .fieldtype{
+      display: flex;
+      .uf{
+        font-size: 14px;
+        line-height: 18px;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  ul.display-flex{
+    display: flex;
+    li{
+      padding-right: 10px;
+      cursor: pointer;
+    }
+  }
+  ul.handle-btn-group{
+    color: #1E7BE2;
+  }
+  
+  .margin-bottom-10{
+    margin-bottom: 10px;
+  }
+  
+  .margin-right-10{
+    margin-right: 10px;
+  }
+  
+  .mdm-table{
+    input {
+      width: 80px;
+    }
+  }
+  

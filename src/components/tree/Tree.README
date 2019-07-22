@@ -1,0 +1,13 @@
+#  树说明
+
+
+root 增加根节点树，id必须为0，代表root
+expendId 展开时叶子节点选中
+ifNoHover 为true时不显示划过效果
+isRefTree 参照的树
+<Tree
+  root={{id: '0', name: '主数据分类', isparent: true}}
+  expendId={id}
+  ifNoHover={true}
+  isRefTree={true}
+/>

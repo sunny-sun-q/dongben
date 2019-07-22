@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="93px" viewBox="0 0 77 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>选择主数据模型</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.665324972 6.67059326 7.33565141 6.67059326 7.33565141 0.000200117798 0.665324972 0.000200117798"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.6">
+        <g id="数据分发-copy" transform="translate(-862.000000, -595.000000)">
+            <g id="选择主数据模型" transform="translate(862.000000, 595.000000)">
+                <circle id="Oval" fill="#CBDBE4" cx="38.5" cy="40.5" r="38.5"></circle>
+                <path d="M11.5,2.5 L11.5,79.5 L66.5,79.5 L66.5,2.5 L11.5,2.5 Z" id="Rectangle" stroke="#93BDEE" fill="#FFFFFF"></path>
+                <path d="M8.5,0.5 L8.5,77.5 L63.5,77.5 L63.5,0.5 L8.5,0.5 Z" id="Rectangle" stroke="#4A90E2" fill="#FFFFFF"></path>
+                <circle id="Oval-3" fill="#93BDEE" cx="23.5" cy="26.5" r="3.5"></circle>
+                <circle id="Oval-3" fill="#93BDEE" cx="48.5" cy="26.5" r="3.5"></circle>
+                <circle id="Oval-4" fill="#93BDEE" cx="35.5" cy="40.5" r="6.5"></circle>
+                <polygon id="Rectangle-3" fill="#93BDEE" opacity="0.5" points="18 63 52.4272461 63 52.4272461 66 18 66"></polygon>
+                <polygon id="Rectangle-3" fill="#93BDEE" opacity="0.5" points="18 70 52.4272461 70 52.4272461 73 18 73"></polygon>
+                <polygon id="Rectangle-3" fill="#93BDEE" opacity="0.5" points="51 46 51 59 49 59 49 46"></polygon>
+                <polygon id="Rectangle-3" fill="#93BDEE" opacity="0.5" points="56 44 56 59.0483398 54 59.0483398 54 44"></polygon>
+                <polygon id="Rectangle-3" fill="#93BDEE" opacity="0.5" points="46 51 46 59.1431132 44 59.1431132 44 51"></polygon>
+                <path d="M8.67724609,0.564941406 C12.6694336,11.6069336 20.8053385,17.2569987 33.0849609,17.5151367 C44.1882607,17.7485465 51.2756156,14.5893152 54.3470256,8.03744276 L54.3470233,8.03744167 C54.581446,7.53737566 55.1768668,7.32202923 55.6769328,7.55645194 C55.8769675,7.65022492 56.0403188,7.80759943 56.1414795,8.00400149 C58.063386,11.7353564 60.4848135,12.9683975 63.4057617,11.703125" id="Path-2" stroke="#93BDEE"></path>
+                <circle id="Oval-5" fill="#6DBAD5" cx="35.5" cy="80.5" r="12.5"></circle>
+                <g id="Group-19" transform="translate(30.000000, 73.000000)">
+                    <path d="M6.66058737,7.40945386 C7.74189054,6.3001342 9.2447752,5.85053621 10.6729492,6.05532343 L10.6729492,0.658813477 L2.39207474,0.658813477 L0,3.05088822 L0,13.3329407 L6.17029877,13.3329407 C4.91889547,11.5325476 5.07365323,9.03574449 6.66058737,7.40945386" id="Fill-1" fill="#FFFFFF"></path>
+                    <g id="Group-5" transform="translate(6.003534, 7.329407)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-4"></g>
+                        <path d="M6.00179958,4.00255607 L4.66768093,4.00255607 L4.66768093,5.33934296 L3.33356228,5.33934296 L3.33356228,4.00255607 L1.99944362,4.00255607 L1.99944362,2.66843742 L3.33356228,2.66843742 L3.33356228,1.33098347 L4.66768093,1.33098347 L4.66768093,2.66843742 L6.00179958,2.66843742 L6.00179958,4.00255607 Z M4.0006216,0.000200117798 C2.16087198,0.000200117798 0.665324972,1.49641419 0.665324972,3.33549675 C0.665324972,5.17457931 2.16087198,6.67079338 4.0006216,6.67079338 C5.83970417,6.67079338 7.33591823,5.17457931 7.33591823,3.33549675 C7.33591823,1.49641419 5.83970417,0.000200117798 4.0006216,0.000200117798 Z" id="Fill-3" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

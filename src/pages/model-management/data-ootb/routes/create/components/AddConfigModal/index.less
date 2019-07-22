@@ -1,0 +1,67 @@
+.create-modal {
+  .create-modal-body {
+    padding-top: 0;
+    padding-bottom: 0;
+    .u-tree {
+      height: auto;
+    }
+  }
+}
+
+.create-modal-tree {
+  padding-right: 20px !important;
+  .u-tree-node-content-wrapper {
+    width: 100%;
+  }
+  .tree-title {
+    &>i {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      padding: 0;
+      margin: 0 5px;
+      line-height: 14px;
+    }
+  }
+  .status-ser-wait {
+    .status-text, &>i {
+      color: #999999;
+    }
+  }
+  .status-ser-doing {
+    &>img {
+      width: 14px;
+      height: 14px;
+      padding: 0;
+      margin: 0 5px;
+    }
+    .status-text {
+      color: #2196F3;
+    }
+  }
+  .status-ser-success {
+    &>i {
+      font-size: 12px;
+      border: 1px solid  #1F8B30;
+      border-radius: 50%;
+    }
+    .status-text, &>i {
+      color: #1F8B30;
+    }
+  }
+  .status-ser-fail {
+
+    .status-text, &>i {
+      color: #E53935;
+    }
+  }
+  .status-text {
+    float: right;
+  }
+}
+.create-modal-tree-w {
+  height: 376px;
+  overflow-x: auto;
+  overflow-y: auto;
+  background: #F5F5F5;
+}

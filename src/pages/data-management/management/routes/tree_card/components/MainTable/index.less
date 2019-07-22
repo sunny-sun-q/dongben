@@ -1,0 +1,166 @@
+.main-table {
+    padding: 24px;
+    background: white;
+    .main-table-row {
+        .main-table-col {
+            .table-item {
+                // margin: 10px 5px;
+                height: 50px;
+                .item-title {
+                    display: inline-block;
+                    width: 110px;
+                    text-align: right;
+                    vertical-align: top;
+                    line-height: 30px;
+                    height: 30px;
+                    overflow: hidden;
+                    .star-icon-red {
+                        color: red;
+                    }
+                    .title-tooltip {
+                        display: inline-block;
+                        width: 100px;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        vertical-align: middle;
+                        padding-right: 2px;
+                    }
+                }
+                .item-detail {
+                    display: inline-block;
+                    width: calc(100% - 120px);
+                    max-width: 250px;
+                    // .mdm-ref-comp {
+                    //     .ref-input-wrap {
+                    //         width:100% !important;
+                    //         .uf-navmenu {
+                    //             line-height: 30px;
+                    //         }
+                    //     }
+                    // }
+                    .u-time-picker {
+                        width: 100%;
+                        .u-time-picker-input {
+                            height: 30px;
+                        }
+                    }
+                    .disable-time-picker>input{
+                        background: #F7F9FB;
+                        border-color: #DFE1E6;
+                        cursor: not-allowed;
+                    }
+                    .u-select-selection--single {
+                        height: 30px;
+                    }
+                    .upload-btn {
+                        padding: 0;
+                        font-size: 12px;
+                        width: 100px;
+                        height: 30px;
+                        background: #FFFFFF;
+                        color: #1e7be2;
+                        border-color: #1e7be2;
+
+                        >span {
+                            line-height: 30px;
+                        }
+                    }
+
+                    .upload-btn[disabled]{
+                        background: #1e7be2 !important;
+                        color: white !important;
+                    }
+                    .upload-btn:hover {
+                        
+                        background: #1e7be2;
+                        color: white;
+                    }
+
+                    .file-display {
+                        position: relative;
+                        padding: 8px;
+                        height: 66px;
+                        display: inline-block;
+                        width: 100%;
+                        margin-bottom: 8px;
+                        border-radius: 4px;
+                        border: rgb(217, 217, 217) 1px solid;
+                        .file-display-name {
+                            display: inline-block;
+                            font-size: 12px;
+                            cursor: pointer;
+                            white-space:nowrap;
+                            overflow:hidden;
+                            text-overflow:ellipsis;
+                            width: calc(100% - 72px);
+                        }
+                        .file-display-name-p {
+                            margin-left: 8px;
+                        }
+                        .file-display-name-f {
+                            position: absolute;
+                            top: 11px;
+                        }
+                        .file-display-close {
+                            display: none;
+                            position: absolute;
+                            right: 5px;
+                            top: 10px;
+                            font-size: 5px;
+                            cursor: pointer;
+                        }
+                        .file-display-pic {
+                            display: inline-block;
+                            width: 48px;
+                            height: 48px;
+                        }
+                        .file-display-file {
+                            display: inline-block;
+                            width: 48px;
+                            height: 48px;
+                            
+                        }
+                    }
+                    .file-display:hover {
+                        .file-display-close  {
+                            display: inline-block
+                        }
+                    }
+                }
+
+                .error-tips {
+                    color: red;
+                    display: block;
+                    font-size: 12px;
+                }
+                
+            }
+            .file{
+                height: auto;
+                min-height: 60px;
+            }
+            .text-area {
+                .item-text-area {
+                    .text-area-input {
+                        min-height: 60px;
+                    }
+                    width: calc(100% - 120px);
+                    max-width: calc(66% + 250px);
+                    display: inline-block;
+                    margin-bottom: 10px;
+                }
+                display: inline-block;
+                width: 100%;
+                height: auto;
+                
+            }
+            
+            .file-disabled {
+                .uf-close {
+                    display: none;
+                }
+            }
+        }
+    }
+}

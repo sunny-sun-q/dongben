@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>企业画像logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板-copy">
+            <g id="默认头像1">
+                <g id="企业画像logo">
+                    <rect id="矩形" fill="#EDEDED" fill-rule="nonzero" x="0" y="0" width="100" height="100"></rect>
+                    <g id="默认头像" transform="translate(10.000000, 10.000000)">
+                        <circle id="Oval" fill="#EDEDED" cx="40" cy="40" r="40"></circle>
+                        <text id="LOGO" font-family="STHeitiSC-Medium, Heiti SC" font-size="16" font-weight="bold" letter-spacing="1.6" fill="#C3C3C3">
+                            <tspan x="12.0171034" y="46">LOGO</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
